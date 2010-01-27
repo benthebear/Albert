@@ -1,0 +1,15 @@
+; $Id:  $
+name = Albert
+description = A basis for further Themes with a tribute to the great Wirter Albert Camus
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[pre] = Pre-Content
+regions[content] = Content
+regions[post] = Post-Content
+regions[header] = Header
+regions[footer] = Footer

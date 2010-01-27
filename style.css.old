@@ -1,0 +1,211 @@
+@import url("anmut.css");
+
+/* ========== At first, set Defaults back to zero ========== */
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,table,tr,td,thead,tbody{
+	margin:0px; 
+	padding:0px; 
+	font-weight:normal;
+	border:0px;
+}
+
+ul, ol, dd{
+	padding-left:2em;
+}
+
+
+/* Set the Basics 100e2r */
+
+html, body {
+	font:100%/1.45 Georgia, serif;	
+	line-height: 145%;	
+}
+
+body {
+	
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+td {
+	padding:3px;
+	vertical-align:top;
+}
+
+
+div.node,
+.node .content p,
+.node .content ul,
+.node .content ol,
+.node .content blockquote,
+.node .content blockquote p,
+.comment,
+.comment .content p,
+.comment .content ul,
+.comment .content ol,
+.comment .content blockquote,
+.node .content blockquote p{
+	margin-bottom:2em;
+}
+
+.region{
+	margin:10px;
+}
+
+h1 {
+	font-size:150%;
+}
+
+h2.title{
+	margin-bottom:0.5em;
+}
+
+/* Take care of Layout */
+
+#arena {
+	position:relative;	
+	width:600px;
+	margin:10px;
+}
+.sidebars-0 #arena{
+	width:1180px;
+}
+
+.arg0-admin #arena{
+	width:900px;
+}
+
+.sidebar {
+	width:500px;
+	position:absolute;
+}
+
+#sidebar-right{
+	left:700px;
+	padding-left:25px;
+}
+
+.homepage #sidebar-right{
+	
+}
+
+.arg0-admin #sidebar-right{
+	left:900px;
+}
+
+
+#arena img {
+	max-width:580px;
+}
+
+#header,
+#footer{	
+	color:white;
+	background-color:black;	
+	margin:1em 0 2em; 0;
+	padding:25px 25px 0 20px;
+	min-width:1280px;
+	
+}
+
+#header{
+	height:50px;
+}
+
+#header a,
+#footer a{
+	color:white;
+}
+
+#footer {	
+	height:75px;
+}
+
+
+
+
+/* Node */
+
+.node {
+	clear:both;
+}
+
+.full{
+	min-height:500px;
+}
+
+#arena .teaser .teaserimage img{
+	max-width:200px;
+}
+
+
+.node blockquote,
+.comment blockquote{
+	border-left:1px solid black;
+	padding-left:1em;
+}
+
+
+/* Block */
+
+.block {
+	margin-bottom:2em;
+}
+
+
+.sidebar .block h3{
+	
+}
+
+#block-feedimporter-0{
+	position:absolute;
+	left:500px;
+	width:700px;
+}
+
+#block-teaserimage-0,
+#block-moblog-0 {
+	width:1250px;
+}
+#block-teaserimage-0 li,
+#block-moblog-0 li{
+	margin-right:40px;
+	padding-right:0px;
+}
+
+#block-block-4 img {
+	width:200px;
+	height:200px;
+}
+
+#block-block-4 td{
+width:244px;
+}
+
+/*Comments*/
+
+#comments h2{
+	margin-bottom:1em;
+}
+
+.comment .submitted{
+	font-style:italic;
+	text-align:right;
+}
+
+/* Correction of some of Drupals Defaults */
+
+.item-list ul.pager li {
+	margin:0px;
+	padding:0px;
+}
+
+
+.feed-icon{
+	display:none;
+}

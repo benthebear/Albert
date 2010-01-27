@@ -1,0 +1,13 @@
+#block-teaserimage-1 h3,
+.full .teaserimage{
+	display:none;
+}
+
+#block-teaserimage-1 img{
+	max-width:500px;
+}
+
+.teaser .teaserimage {
+	float:right;
+	margin-left:2em;
+}

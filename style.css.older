@@ -1,0 +1,192 @@
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {font-family: Georgia, Times, serif; color:#333; font-size:16px;  line-height:1.125; 
+  background: #fff url(http://www.coldheat.de/grafiken/raster.png); background:#fff;}
+
+
+#header, #footer {background:#ef9d0e; width:100%; padding:0; clear:both; display:block;}
+#footer {background:#111; padding:20px 0;}
+#header h1 {font-size: 22px; margin:0 0 0 488px; padding:20px 0 20px 20px; letter-spacing:1px; opacity:.99; background:#000;}
+
+#footer .content {margin:20px; text-transform: lowercase; line-height:20px; color:#666;}
+
+
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+
+/*	Global Link Styles - LVHFA
+		=========================================== */
+a {
+	text-decoration:none;
+	outline:none;
+	}
+a:link {
+	color:#EF9D0E;
+	border-bottom:0;
+	}
+a:visited, a:visited {
+	color:#EF9D0E;
+	}
+a:active {
+	color:#EF9D0E;
+	}
+a:hover {
+	text-decoration:none;
+	color:#9F7E45;
+	}
+
+
+
+.full .content .teaserimage {position:absolute; left:-9999px;}
+
+.teaserimage img {width:488px;}
+#sidebar-right, #arena { width:468px; float:left; display:inline; clear:none; margin-left:20px; position:relative;}
+#sidebar-right { width:488px; margin:0; position:relative; } 
+
+.item-list, .backandforthline, .date {margin:.5em 0 .5em 20px; float:left; font-size:14px; line-height:20px;}
+.backandforthline {position:absolute; margin:-50px 0 0 0; background:#000; opacity:.7; width:448px; padding: 4px 20px; font-size:16px;}
+.item-list ul {list-style-type:disc; margin-left:20px; color:#bbb;}
+
+/* actual content */
+h2.title {font-size:38px; opacity:.99; margin: 1em 0 .5em;}
+.full .content p {margin: 0 0 24px; line-height:22px;}
+
+
+#block-teaserimage-0 { width:976px; margin:2em 0 2em -508px; border-top: 1px dotted #111; padding:1em 0 0; float:left; clear:both; display:block; }
+#block-teaserimage-0 ul li {display:inline; width: 163px; float:left; margin:0 0 1em 20px; position:relative;}
+#block-teaserimage-0 img, .block-teaserimage h3 { padding:0; width:163px;}
+#block-teaserimage-0 img { padding:0; width:161px; height:161px; border:1px solid #bbb;}
+#block-teaserimage-0 span { font-size:14px; position:absolute; left:0; bottom:4px; background:#000; opacity:.7; padding:5px; width:153px; border-top:1px solid #fff; letter-spacing:.5px;}
+
+a.feed-icon {position:absolute; left:-488px; bottom:-40px;}
+
+
+/* Neuer zusätzlicher CSS Code */
+
+p {line-height:22px;}
+.region .teaserimage {margin-bottom:1em;}
+div.links {margin-top:.5em;}
+h3.title {margin: 14px 0 7px 20px; text-transform:uppercase; font-size:12px!important; letter-spacing:1.5px; padding:0 0 4px 0;}
+
+#block-backandforth-0 h3, #block-teaserimage-1 h3 {position:absolute; left:-9999px;}
+
+/* Themenblock Titelseite */
+#block-block-3 {margin: 20px 0 20px 0;}
+#block-block-3 h3 {font-size:18px; margin-bottom:4px;}
+#block-block-3 p {font-size:14px; line-height:18px;}
+#block-block-3 ul {padding:0;}
+#block-block-3 table {width:488px; padding-top:1em;}
+#block-block-3 td {width: 244px; padding:0 0 20px 20px;}
+
+/* Navigation Titelseite */
+ul.menu { margin-left:20px; padding:0; line-height:22px;}
+ul.menu li {display:inline; padding:0 4px 0 4px; margin:0; border-left:1px dotted #111;}
+
+/* letzte Kommentare */
+#block-comment-0 table, #block-feedimporter-0 table {margin-left:20px; line-height:20px;}
+.first-row {text-align:left; width:173px; overflow:hidden; float:left; border-bottom:1px dotted #111; font-size:14px; }
+.second-row {padding-left:10px; width:auto;}
+.third-row {padding-left:0;}
+
+
+/* Rockenroll by ben */
+
+#sidebar-right .block-block img{ 
+	max-width:200px;
+}
+.teaser img,
+.node img {
+	max-width:488px;
+}
+
+.full .content{
+	min-height:365px;
+}
+
+.full .content ul,
+.full .content ol{
+	margin-left:2em;
+	list-style-type:square;
+	margin-bottom:24px;
+}
+
+.full .content li{
+	line-height:22px;
+}
+
+.full .content blockquote{
+	border-left:1px dotted #111111;
+	padding-left:2em;
+}
+
+.block-menu,
+#block-comment-0,
+#block-feedimporter-0{
+	margin-bottom:2em;
+}
+
+#block-semanticweblog-0 h3,
+#block-ludwig-1 h3,
+#block-ludwig-0 h3{
+	display:none;
+}
+
+
+
+/* Comments */
+#comments h2{font-size:30px; opacity:.99; margin: 1em 0 .5em;}
+#comments p {margin: 0 0 24px; line-height:22px;}
+#comments .submitted {margin-top:-1em;}
+.comment {margin-bottom:2em; margin-to:-1em;}
+
